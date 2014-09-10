@@ -12,7 +12,7 @@ bool attack(int in_group[], int in_group_length, int in_target);
 const int heros_length = 5;
 int heros[heros_length];
 
-void main() {
+/*void main() {
 	srand(time(NULL));
 	int input;
 	setHeros(heros, heros_length);
@@ -79,4 +79,4 @@ bool attack(int in_group[], int in_group_length, int in_target) {
 		return false;
 
 	}
-}
+}*/
