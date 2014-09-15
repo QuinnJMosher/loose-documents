@@ -4,7 +4,8 @@ using namespace std;
 
 bool CheckPass(char input[]);
 
-void main() {
+
+/*void main() {
 
 	cout << "enter your name: \n";
 	char name[] = "";
@@ -63,4 +64,4 @@ bool CheckPass(char input[]) {
 		}
 	}
 	return false;
-}
+}*/
