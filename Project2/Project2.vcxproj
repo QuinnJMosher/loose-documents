@@ -77,6 +77,7 @@
     <ClCompile Include="structs.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Inventory.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Zombie.h" />
   </ItemGroup>

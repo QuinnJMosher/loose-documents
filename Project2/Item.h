@@ -18,7 +18,9 @@ public:
 	int getStackCount();//returns stackCount or 1 if the item is not stackable
 
 	int changeStack(int in_amount); //returns the new total
-	void mergeStack(); //combinne two stacks
+	float ifChangeStack(int in_amount);//returns the change in weight that would hapen if changeStack were preformed with the same argument
+	void mergeStack(Item in_other); //combinne two stacks
+	float ifMergeStack(Item in_other);//returns the change in weight that would hapen if mergeStack were preformed with the same argument
 
 private:
 
