@@ -67,11 +67,18 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="charArray.cpp" />
     <ClCompile Include="cstrings.cpp" />
+    <ClCompile Include="inventoryTD.cpp" />
+    <ClCompile Include="Item.cpp" />
     <ClCompile Include="loop.cpp" />
     <ClCompile Include="loopsAndArrays.cpp" />
     <ClCompile Include="multiArrays.cpp" />
     <ClCompile Include="refrencecpp.cpp" />
+    <ClCompile Include="Zombie.cpp" />
     <ClCompile Include="structs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Zombie.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
