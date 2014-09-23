@@ -67,6 +67,7 @@
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="charArray.cpp" />
     <ClCompile Include="cstrings.cpp" />
+    <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="inventoryTD.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="loop.cpp" />
