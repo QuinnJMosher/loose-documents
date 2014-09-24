@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main() {
+/*void main() {
 
 	Inventory Stash = Inventory(150, 10);
 
@@ -17,4 +17,4 @@ void main() {
 	cout << Stash.getWeightHeld() << " " << Stash.getItemsHeld() << endl;
 
 	system("pause");
-}
+}*/

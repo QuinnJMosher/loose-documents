@@ -66,6 +66,7 @@
   <ItemGroup>
     <ClCompile Include="Array.cpp" />
     <ClCompile Include="charArray.cpp" />
+    <ClCompile Include="charToInt.cpp" />
     <ClCompile Include="cstrings.cpp" />
     <ClCompile Include="Inventory.cpp" />
     <ClCompile Include="inventoryTD.cpp" />
@@ -74,6 +75,7 @@
     <ClCompile Include="loopsAndArrays.cpp" />
     <ClCompile Include="multiArrays.cpp" />
     <ClCompile Include="refrencecpp.cpp" />
+    <ClCompile Include="Source.cpp" />
     <ClCompile Include="Zombie.cpp" />
     <ClCompile Include="structs.cpp" />
   </ItemGroup>
