@@ -4,12 +4,12 @@ using namespace std;
 
 int char_to_int(char* input);
 
-void main() {
+/*void main() {
 	char* string = "123";
 	cout << char_to_int(string) << endl;
 	system("pause");
 
-}
+}*/
 
 int char_to_int(char* input) {
 	int out = 0;
