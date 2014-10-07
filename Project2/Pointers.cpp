@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void main() {
+/*void main() {
 	int arr = 0;
 	int *arrPos = &arr;
 
@@ -11,7 +11,7 @@ void main() {
 
 	/*for (int *p = arrPos; p < arr_end; p++) {
 		*p = 0;
-	}*/
+	}////
 
 	cout << "Enter numbers (enter \"-1\" to end) \n";
 
@@ -29,7 +29,7 @@ void main() {
 	for (int *p = arr_end - 1; p > arrPos - 1; p--) {
 		array1[i] = *p;
 		i--;
-	}*/
+	}////
 
 	for (int *p = arr_end - 1; p > arrPos - 1; p--) {
 		cout << *p << " ";
@@ -37,4 +37,4 @@ void main() {
 	cout << endl;
 
 	system("pause");
-}
+}*/

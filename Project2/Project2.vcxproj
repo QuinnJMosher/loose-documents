@@ -73,6 +73,7 @@
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="loop.cpp" />
     <ClCompile Include="loopsAndArrays.cpp" />
+    <ClCompile Include="MemoryLeakLoging.cpp" />
     <ClCompile Include="multiArrays.cpp" />
     <ClCompile Include="Pointers.cpp" />
     <ClCompile Include="refrencecpp.cpp" />

@@ -1,8 +1,29 @@
-﻿Build started 9/24/2014 12:50:16 PM.
+﻿Build started 10/7/2014 1:13:02 PM.
      1>Project "C:\Users\quinn.mosher\Documents\GitHub\loose-documents\Project2\Project2.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Pointers.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Array.cpp charArray.cpp charToInt.cpp cstrings.cpp Inventory.cpp inventoryTD.cpp Item.cpp loop.cpp loopsAndArrays.cpp MemoryLeakLoging.cpp multiArrays.cpp Pointers.cpp refrencecpp.cpp Source.cpp Zombie.cpp structs.cpp
+         structs.cpp
+         Zombie.cpp
+     1>c:\users\quinn.mosher\documents\github\loose-documents\project2\zombie.cpp(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Source.cpp
+         refrencecpp.cpp
          Pointers.cpp
+         multiArrays.cpp
+         MemoryLeakLoging.cpp
+         loopsAndArrays.cpp
+         loop.cpp
+         Item.cpp
+         inventoryTD.cpp
+         Inventory.cpp
+     1>c:\users\quinn.mosher\documents\github\loose-documents\project2\inventory.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quinn.mosher\documents\github\loose-documents\project2\inventory.cpp(126): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\quinn.mosher\documents\github\loose-documents\project2\inventory.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+         cstrings.cpp
+         charToInt.cpp
+     1>c:\users\quinn.mosher\documents\github\loose-documents\project2\chartoint.cpp(18): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+         charArray.cpp
+         Array.cpp
+         Generating Code...
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\quinn.mosher\Documents\GitHub\loose-documents\Debug\Project2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\quinn.mosher\Documents\GitHub\loose-documents\Debug\Project2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\quinn.mosher\Documents\GitHub\loose-documents\Debug\Project2.lib" /MACHINE:X86 Debug\Array.obj
          Debug\charArray.obj
@@ -13,6 +34,7 @@
          Debug\Item.obj
          Debug\loop.obj
          Debug\loopsAndArrays.obj
+         Debug\MemoryLeakLoging.obj
          Debug\multiArrays.obj
          Debug\Pointers.obj
          Debug\refrencecpp.obj
@@ -24,4 +46,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:05.02
